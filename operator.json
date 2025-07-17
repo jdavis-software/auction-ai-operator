@@ -1,0 +1,11 @@
+{
+  "name": "auction-ai-operator",
+  "description": "Orchestrator agent coordinating scrapers, compliance checks, normalization, and outreach for auction AI.",
+  "version": "0.1.0",
+  "agents": {
+    "scraper": "ScraperAgent",
+    "compliance": "ComplianceAgent",
+    "normalization": "NormalizationAgent",
+    "outreach": "OutreachAgent"
+  }
+}
